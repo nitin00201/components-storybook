@@ -86,7 +86,7 @@ export default function InputField({
   const isInvalid = invalid || !!errorMessage
 
   return (
-    <div className={`w-full ${className}`}>
+    <div className={`w-full ${className} text-black`}>
       {label && (
         <label
           htmlFor={inputId}

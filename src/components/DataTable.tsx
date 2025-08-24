@@ -94,7 +94,7 @@ export default function DataTable<T extends Record<string, any>>({
     selectedKeys.size === sorted.length
 
   return (
-    <div className="relative overflow-x-auto rounded-2xl border border-gray-200 dark:border-gray-800">
+    <div className="relative overflow-x-auto rounded-2xl border border-gray-200 text-black dark:border-gray-800">
       {loading && (
         <div className="absolute inset-0 z-10 grid place-items-center bg-white/70 dark:bg-black/50 backdrop-blur-sm">
           <div className="loader" aria-label="Loading" />
